@@ -6,9 +6,12 @@
 <style>
 	*{
 		background-color: #003367;
+        overflow: hidden;
+        padding: 0px;
+        margin: 0px;
 	}
 	#animated_div {
-		margin-top: 100px;
+	margin-top: 100px;
     width: 150px;
     height: 40px;
     background: #92B901;
@@ -17,42 +20,51 @@
     font-weight: bold;
     font-size: 20px;
     padding: 10px;
-    animation: animated_div 8s infinite;
-    -moz-animation: animated_div 5s 1;
+    animation: animated_div 10s infinite;
+    -moz-animation: animated_div 10s 1;
     -webkit-animation: animated_div 8s infinite;
     -o-animation: animated_div 8s infinite;
     border-radius: 5px;
     -webkit-border-radius: 5px;
+  
+  
+    
 }
 @keyframes animated_div{
 0% {
     transform: rotate(0deg);
-    left: 0px;
+    left: 100vw;
+    
 }
 25% {
     transform: rotate(20deg);
     left: 0px;
+   
 }
 50% {
     transform: rotate(0deg);
     left: 89%;
+    
 }
 55% {
     transform: rotate(0deg);
     left: 89%;
+   
 }
 70% {
     transform: rotate(0deg);
     left: 89%;
     background: #1ec7e6;
+   
 }
 100% {
-    transform: rotate(-360deg);
+    transform: rotate(0deg);
     left: 0px;
+    
 }
 }
 </style>
-images/hackfest20.svg
+
 
 </head>
 <body>
